@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Poppins";
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 1.5rem auto;
+  padding: 1rem 0;
+}
+header img {
+  width: 6rem;
+  margin-right: 1rem;
+}
+header nav {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+header .menu a:hover,
+header .autentication a:hover {
+  color: black;
+}
+header #signUp {
+  margin-left: 1rem;
+  color: #fff;
+  background-color: hsl(180deg, 81%, 72%);
+  border-radius: 1.5rem;
+}
+header ul {
+  display: flex;
+}
+header li {
+  list-style: none;
+}
+header a {
+  padding: 0.4rem;
+  color: hsl(0deg, 0%, 75%);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+main {
+  margin: 0 auto;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  height: 20rem;
+  margin: 3rem auto;
+}
+main .conteudo {
+  width: 50%;
+}
+main .img {
+  margin-right: -15rem;
+  width: 50%;
+  height: 100%;
+}
+main h1 {
+  font-size: 3.2rem;
+}
+main h3 {
+  color: hsl(0deg, 0%, 75%);
+  font-size: 1rem;
+}
+main .btn-started {
+  color: #fff;
+  background-color: hsl(180deg, 81%, 72%);
+  border-radius: 1.2rem;
+  margin-top: 2rem;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  border: 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+main img {
+  width: 20rem;
+  height: 20rem;
+  margin-right: -5rem;
+  overflow: hidden;
+}
+
+.div-input {
+  width: 80%;
+  height: 7rem;
+  background-image: url("./images/bg-shorten-desktop.svg");
+  background-size: 100% 100%;
+  background-color: hsl(257deg, 27%, 26%);
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 0.4rem;
+}
+.div-input form {
+  width: 100%;
+}
+.div-input form input {
+  width: 80%;
+  height: 3rem;
+  border-radius: 0.3rem;
+  border: 0;
+  padding-left: 1rem;
+  margin-right: 1rem;
+}
+.div-input form button {
+  height: 3rem;
+  color: #fff;
+  background-color: hsl(180deg, 81%, 72%);
+  border: 0;
+  border-radius: 0.3rem;
+  padding: 0 1.5rem;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
