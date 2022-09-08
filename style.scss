@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: hsl(0, 0%, 97%);
   font-family: "Poppins";
   font-size: 18px;
   overflow-x: hidden;
@@ -16,8 +16,9 @@ header {
   display: flex;
   align-items: center;
   width: 80%;
-  margin: 1.5rem auto;
-  padding: 1rem 0;
+  margin: 0 auto;
+  padding: 2rem 0;
+  background-color: #fff;
 
   img {
     width: 6rem;
@@ -39,8 +40,9 @@ header {
   #signUp {
     margin-left: 1rem;
     color: #fff;
-    background-color: hsl(180, 81%, 72%);
-    border-radius: 1.5rem;
+    background-color: hsl(180, 86%, 66%);
+    border-radius: 1rem;
+    padding: 0.5rem 0.8rem;
   }
 
   ul {
@@ -62,6 +64,7 @@ main {
   display: flex;
   width: 80%;
   justify-content: space-between;
+  background-color: #fff;
   height: 20rem;
   margin: 3rem auto;
 
@@ -82,7 +85,7 @@ main {
   }
   .btn-started {
     color: #fff;
-    background-color: hsl(180, 81%, 72%);
+    background-color: hsl(180, 86%, 66%);
     border-radius: 1.2rem;
     margin-top: 2rem;
     padding: 0.8rem 1.2rem;
@@ -107,9 +110,10 @@ main {
   background-size: 100% 100%;
   background-color: hsl(257, 27%, 26%);
   margin: 0 auto;
-  margin-bottom: 3rem;
   padding: 2rem;
   border-radius: 0.4rem;
+  margin-top: -3.8rem;
+  margin-bottom: 3rem;
 
   form {
     width: 100%;
@@ -126,11 +130,171 @@ main {
     button {
       height: 3rem;
       color: #fff;
-      background-color: hsl(180, 81%, 72%);
+      background-color: hsl(180, 86%, 66%);
       border: 0;
       border-radius: 0.3rem;
       padding: 0 1.5rem;
       cursor: pointer;
+    }
+  }
+}
+
+.background-white {
+  background-color: #fff;
+  padding-bottom: 8rem;
+}
+
+.statistics-div {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.content {
+  width: 60%;
+  margin-bottom: 3rem;
+
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  p {
+    color: hsl(0, 0%, 75%);
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
+.boxs-statistics {
+  display: flex;
+  width: 100%;
+
+  margin-top: 3rem;
+  gap: 1rem;
+
+  .img-statistics {
+    background-color: hsl(257, 27%, 26%);
+    clip-path: circle();
+    margin-left: 1rem;
+    margin-top: -1.8rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0.7rem;
+    display: block;
+  }
+
+  .statistics-box-1,
+  .statistics-box-2,
+  .statistics-box-3 {
+    border-radius: 0.5rem;
+    h3 {
+      font-size: 1rem;
+      margin: 1rem 0 1rem 1rem;
+    }
+    p {
+      font-size: 0.9rem;
+      color: hsl(0, 0%, 75%);
+      margin: 1rem 0 1rem 1rem;
+    }
+  }
+
+  .statistics-box-1 {
+    background-color: #fff;
+  }
+  .statistics-box-2 {
+    background-color: #fff;
+    margin-top: 2rem;
+  }
+  .statistics-box-3 {
+    background-color: #fff;
+    margin-top: 4rem;
+  }
+}
+
+.boost-div {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(257, 27%, 26%);
+  background-image: url("./images/bg-boost-desktop.svg");
+  background-size: 100%;
+
+  h2 {
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    height: 2.2rem;
+    color: #fff;
+    background-color: hsl(180, 86%, 66%);
+    border: 0;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    cursor: pointer;
+  }
+}
+
+footer {
+  background-color: rgb(15, 12, 12);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  .logo{
+    img{
+      fill: #fff;
+    }
+  }
+  
+
+  .div-menu-footer {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    gap: 3rem;
+
+    .menu-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      p{
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+      }
+
+      nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        a{
+          text-decoration: none;
+          color: hsl(0, 0%, 75%);
+          font-size: 0.7rem;
+          padding: 0.5rem 0;
+        }
+      }
+    }
+  }
+
+  .midias{
+    img{
+      width: 1rem;
+      height: 1rem;
+      margin-right: 0.3rem;
     }
   }
 }
